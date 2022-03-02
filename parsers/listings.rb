@@ -1,0 +1,2 @@
+nokogiri = Nokogiri.HTML(content)
+
