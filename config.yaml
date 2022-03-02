@@ -5,5 +5,5 @@ seeder:
 parsers:
   - file: ./parsers/listing.rb
     page_type: listing
-    disabled: true
+    disabled: false
 }
