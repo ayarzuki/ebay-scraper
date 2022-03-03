@@ -2,7 +2,7 @@
 nokogiri = Nokogiri.HTML(content)
 
 # get the seller username
-seller = nokogiri.at_css('[_sp="p2349526.m4383.l9560.c10"]')&.text
+seller = nokogiri.at_css('[title="oemappleparts87"]')&.text
 
 # get the seller's feedback
 # feedback_item = nokogiri.at_css('div.seller-persona span.no-wrap')[2]&.text

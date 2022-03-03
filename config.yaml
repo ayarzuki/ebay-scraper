@@ -12,4 +12,4 @@ parsers:
 
 exporters:
   - file: ./exporters/products_last10_json.yaml
-    disabled: false
+    disabled: true
